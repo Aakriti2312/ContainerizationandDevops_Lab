@@ -7,4 +7,5 @@
 ## Theory (Day-wise)
 - [27.01.26](./Theory/27.01.26/README.md)
 - [28.01.26](./Theory/28.01.26/README.md)
-- [30.01.26](./Theory/28.01.26/README.md)
+- [30.01.26](./Theory/30.01.26/README.md)
+- [03.02.26](./Theory/03.02.26/README.md)
