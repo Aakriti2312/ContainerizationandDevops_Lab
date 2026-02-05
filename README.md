@@ -10,3 +10,4 @@
 - [30.01.26](./Theory/30.01.26/README.md)
 - [03.02.26](./Theory/03.02.26/README.md)
 - [04.02.26](./Theory/04.02.26/README.md)
+- [05.02.26](./Theory/05.02.26/README.md)
