@@ -38,16 +38,45 @@ cd Experiment-3-WebApp
 ![](./images/image1.jpeg)
 
 ### Step 2: Create Flask App (app.py)
+```bash
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return """
+    <h1>Experiment 3: Deploying Web Applications with Docker</h1>
+    <h2>Aakriti - SAP ID: 500119552</h2>
+    <h2>Kinjal - SAP ID: 500123394</h2>
+    """
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
+```
 
 ![](./images/image2.jpeg)
 
 ### Step 3: Add Requirements File
+```bash
+flask
+```
 
 Create requirements.txt
 ![](./images/image3.jpeg)
 
 ### Step 4: Write Dockerfile
+```bash
+FROM python:3.9-slim
 
+WORKDIR /app
+
+COPY . /app
+
+RUN pip install -r requirements.txt
+
+CMD ["python", "app.py"]
+```
 ![](./images/image4.jpeg)
 
 ### Step 5: Build Docker Image
