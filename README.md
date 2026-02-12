@@ -16,3 +16,4 @@
 - [10.02.26](./Theory/10.02.26/README.md)
 - [11.02.26](./Theory/11.02.26/README.md)
 - [11.02.26(Assignment)](./Theory/11.02.26(Assignment)/README.md)
+- [12.02.26](./Theory/12.02.26/README.md)
