@@ -6,6 +6,7 @@
 - [Experiment 3](./Lab/Experiment-3/README.md)
 - [Experiment 3(II)](./Lab/Experiment-3(II)/README.md)
 - [Experiment 4](./Lab/Experiment-4/README.md)
+- [Experiment 5](./Lab/Experiment-5/README.md)
 ## Theory (Day-wise)
 - [27.01.26](./Theory/27.01.26/README.md)
 - [28.01.26](./Theory/28.01.26/README.md)
