@@ -268,31 +268,31 @@ sudo docker exec docker-assignment_backend_1 wget \
 ```bash
 sudo docker exec docker-assignment_backend_1 wget -O - http://localhost:3000/users
 ```
-[](./images/image7.jpeg)
+![](./images/image7.jpeg)
 
 ## Verify containers
 ```bash
 sudo docker ps
 ```
-[](./images/image9.jpeg)
+![](./images/image9.jpeg)
 
 ## Verify Network
 ```bash
 docker network inspect mymacvlan
 ```
-[](./images/image8.jpeg)
+![](./images/image8.jpeg)
 
 ## Verify Images
 ```bash
 docker images
 ```
-[](./images/image10.jpeg)
+![](./images/image10.jpeg)
 
 ## Verify Volumes
 ```bash
 docker volume ls
 ```
-[](./images/image11.jpeg)
+![](./images/image11.jpeg)
 
 ## Verify Volume Persistence
 
